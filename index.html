@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>Home</title>
+    <script type="text/javascript">
+
+    </script>
+
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://use.typekit.net/flt4iay.css">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/066ce24dae3730ed6c648b09efaea93a?family=Acumin+Variable+Concept"
+        rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.typekit.net/flt4iay.css">
+
+
+
+</head>
+
+
+<body>
+
+
+
+
+    <div class="center">
+        <div onmouseover="changewght('bigger', 'wght=700', 'wdth=150');"
+            onmouseout="changewghtback('bigger', 'wght=100', 'wdth=0');" id='bigger'>T</div>
+
+        <div onmouseover="changewght('bigger2', 'wght=700');" onmouseout="changewghtback('bigger2', 'wght=100');"
+            id='bigger2'>U</div>
+
+        <div onmouseover="changewght('bigger3', 'wght=700');" onmouseout="changewghtback('bigger3', 'wght=100');"
+            id='bigger3'>R</div>
+
+        <div onmouseover="changewght('bigger4', 'wght=700');" onmouseout="changewghtback('bigger4', 'wght=100');"
+            id='bigger4'>D</div>
+
+    </div>
+
+
+
+    <script>
+        function changewght(el, wght) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "font-variation-settings 0.5s ease-in-out 0s"
+            elem.style.fontVariationSettings = wght;
+        }
+
+        function changewghtback(el, wght) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "font-variation-settings 0.5s ease-in-out 0s"
+            elem.style.fontVariationSettings = wght;
+        }
+    </script>
+
+
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+
+
+</body>
+
+</html>
