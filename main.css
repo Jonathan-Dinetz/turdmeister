@@ -37,8 +37,10 @@ html {
     color:white;
     cursor: crosshair;
     font-variation-settings: "wght" 500, "wdth" 100;
-    font-size: 20vw;
+    font-size: 25vw;
 }
+
+
 
 
 
@@ -67,7 +69,6 @@ html {
 #bigger2:hover {
     font-variation-settings: "wght" 100, "wdth" 0;
     transition: font-variation-settings 0.25s linear 0s;
-
 }
 
 #bigger3 {
